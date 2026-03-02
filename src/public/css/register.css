@@ -1,0 +1,72 @@
+body {
+    background: #e6ded7;
+    font-family: serif;
+}
+
+.header {
+    text-align: center;
+    padding: 5px 0;
+    position: relative;
+    background: #fff;
+}
+
+.login-btn {
+    position: absolute;
+    right: 40px;
+    top: 20px;
+    border: 1px solid #c5b7aa;
+    background: #e6ded7;
+    padding: 8px 30px;
+        /* ← 横幅を広げる */
+        color: #c5b7aa;
+        /* ← 枠と同じ色にする */
+        border-radius: 6px;
+        cursor: pointer;
+}
+
+.title {
+    text-align: center;
+    font-size: 28px;
+    margin: 60px 0;
+}
+
+.card {
+    width: 500px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 40px;
+    border-radius: 8px;
+}
+
+label {
+    display: block;
+    margin-top: 25px;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin-top: 8px;
+    background: #f4f4f4;
+    border: none;
+
+}
+
+input::placeholder {
+    color: #c5b7aa;
+}
+
+.error {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.register-btn {
+    display: block;
+    margin: 40px auto 0;
+    padding: 10px 40px;
+    background: #8c7b6d;
+    color: #fff;
+    border: none;
+}

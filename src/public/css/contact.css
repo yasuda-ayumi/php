@@ -1,0 +1,158 @@
+body {
+    margin: 0;
+    font-family: serif;
+    background-color: #ffffff;
+    color:#6b5b53
+}
+
+.wrapper {
+    width: 900px;
+    margin: 0 auto;
+    padding: 10px 0 60px;
+}
+
+.header-line {
+    width: 100%;
+    height: 1px;
+    background-color: #e0ddd9;
+    margin: 20px 0 40px;
+}
+
+.site-title {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.page-title {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 40px;
+    font-weight: 500;
+}
+
+select {
+    color: #6b5b53;
+    /* ← 文字色を統一 */
+}
+
+select option {
+    color: #6b5b53;
+}
+
+.contact-form {
+    width: 100%;
+}
+
+.form-row {
+    display: flex;
+    align-items:flex-start;
+    margin-bottom: 25px;
+}
+
+.form-row>label {
+    width: 250px;
+    padding-top: 12px;
+    font-size: 14px;
+}
+
+.required {
+    color: #d66;
+    font-size: 12px;
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+    background-color: #eee;
+    border: none;
+    padding: 12px;
+    font-size: 14px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.name-group {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+}
+
+.name-group input {
+    width: 100%;
+}
+
+.radio-group {
+    display: flex;
+    gap: 40px;
+    padding-top: 8px;
+}
+
+.radio-group input {
+    margin-right: 6px;
+}
+
+.tel-wrapper {
+    flex: 1;
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.tel-input {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.tel-input input {
+    width: 120px;
+}
+
+select {
+    appearance: none;
+    background-image: linear-gradient(45deg, transparent 50%, #6b5b53 50%),
+        linear-gradient(135deg, #6b5b53 50%, transparent 50%);
+    background-position: calc(100% - 20px) calc(50% - 3px),
+        calc(100% - 15px) calc(50% - 3px);
+    background-size: 5px 5px, 5px 5px;
+    background-repeat: no-repeat;
+}
+
+textarea {
+    height: 150px;
+    resize: none;
+}
+
+.btn-area {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.confirm-btn {
+    background-color: #6b5b53;
+    color: #fff;
+    border: none;
+    padding: 12px 40px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.confirm-btn:hover {
+    opacity: 0.8;
+}
+
+.error-message {
+    color: red;
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+.form-input {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    min-width: 0;
+}
