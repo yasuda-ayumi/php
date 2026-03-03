@@ -20,9 +20,7 @@ return new class extends Migration
         $table->string('last_name');
         $table->tinyInteger('gender'); // 1:男性 2:女性 3:その他
         $table->string('email');
-        $table->string('tel1');
-        $table->string('tel2');
-        $table->string('tel3');
+        $table->string('tel');
         $table->string('address');
         $table->string('building')->nullable();
         $table->text('detail');
