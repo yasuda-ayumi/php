@@ -49,4 +49,7 @@ password: password
 
 ## ER図
 
-![ER図](./src/images/er.png)
+
+<div align="center">
+  <img src="src/images/er_diagram.png" width="80%">
+</div>
